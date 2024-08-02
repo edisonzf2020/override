@@ -15,6 +15,9 @@
 # Dependency directories (remove the comment below to include it)
 vendor/
 
+# Docker build directories
+docker/
+
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
 *.a
@@ -30,6 +33,7 @@ Thumbs.db
 *.log
 bin/
 config.json
+.env
 
 # Develop tools
 .vscode/
